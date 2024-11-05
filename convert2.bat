@@ -1,0 +1,1 @@
+start /d %~dp0 dist/convert2.exe

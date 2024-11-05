@@ -1,9 +1,10 @@
-実行方法<br>
-<br>
-1.階層を保ったままダウンロード(clone)し、convert2.batを実行する。<br>
+# 実行方法
+
+1. 階層を保ったままclone(ダウンロード)し、convert2.batを実行する。
+
 exeを呼び出して実行しますが、この方法で実行した場合に、まれにファイル選択ダイアログが一切反応しない不具合があります。<br>
 発生した場合は、以下のように実行します。<br>
-2.Anacondaでenvironment.yamlから仮想環境を作成し、<br>
-  2-1.その環境の中でconvert2.pyを実行する。<br>
-  または、<br>
-  2-2.その環境の中でsetup.pyを実行する。exeファイルが生成されるので、もう一度convert2.batを実行します。
+2. Anacondaでenvironment.ymlから仮想環境を作成し、
+   - 2-1.その環境の中でconvert2.pyを実行する。<br>
+   または、
+   - 2-2.その環境の中でsetup.pyを実行する。distフォルダの中にexeファイルが生成されるので、もう一度convert2.batを実行します。
